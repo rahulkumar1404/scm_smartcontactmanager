@@ -4,6 +4,9 @@
 
 The Smart Contact Manager is a comprehensive application designed to streamline and optimize the management of contact information. It offers features like storing and organizing contacts, managing communication, and generating detailed reports. This application leverages modern technologies to provide a robust, secure, and user-friendly experience.
 
+![image](https://github.com/user-attachments/assets/bb7c86d6-be3d-47ad-9380-8fe28673d337)
+
+
 ## Technologies Used
 
 The project utilizes a variety of technologies to ensure efficiency, security, and scalability:
