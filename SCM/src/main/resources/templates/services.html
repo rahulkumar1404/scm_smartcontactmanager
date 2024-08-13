@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en" th:replace="~{base ::parent(~{::#content},~{::title},~{})}">
+<head>
+    <title>Services Page</title>
+</head>
+<body>
+    <section id="content">
+
+        <h1>Hi Welcome to Services page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ratione dolor, itaque, omnis repellat autem officiis nihil facere quod non voluptatibus repudiandae blanditiis delectus quo quis consequuntur. Eaque, ipsum quibusdam?</p>
+    </section>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Our Services</title>
+  </head>
+  <body>
+    <div id="content"
+         class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+         style="height: 1000px;
+                background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://img.freepik.com/free-vector/responsive-web-design-online-service-platform-adaptive-content-presentation-different-web-pages-flat-vector-illustration_613284-3104.jpg?t=st=1723370401~exp=1723374001~hmac=a88b0326ec4f3f0115c8c34bd7f712c21ff42072016a29b0a60a9f19e39e5bdf&w=740');
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                width: auto;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;">
+      <div class="container pt-50">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-md-8">
+            <div>
+              <h1 class="font-bold dark:text-gray-900">Our Services</h1>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                The Smart Contact Management System provides a range of services designed to streamline and enhance your contact management experience. Our services include:
+              </p>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                <ul class="list-disc list-inside text-left mt-2 dark:text-gray-600">
+                  <li><strong>Contact Import & Export:</strong> Easily import and export your contact data from various sources including CSV, Excel, and other CRM systems.</li>
+                  <li><strong>Automated Contact Sync:</strong> Synchronize your contacts across multiple platforms and devices automatically to ensure up-to-date information everywhere.</li>
+                  <li><strong>Advanced Search & Filter:</strong> Quickly find and organize your contacts with powerful search and filter options.</li>
+                  <li><strong>Customizable Contact Tags:</strong> Categorize and tag your contacts to personalize and streamline communication.</li>
+                  <li><strong>Integration with Communication Tools:</strong> Seamlessly integrate with email, messaging apps, and other communication tools for efficient contact management.</li>
+                  <li><strong>Analytics & Reporting:</strong> Access detailed analytics and generate reports to gain insights into your contact management activities.</li>
+                  <li><strong>Data Security & Backup:</strong> Protect your contact data with secure storage solutions and automated backups to prevent data loss.</li>
+                </ul>
+              </p>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                Our services are designed to enhance your productivity and ensure that you have the tools necessary to manage your contacts efficiently and effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      console.log("Our Services page");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en" th:replace="~{base ::parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title>About Page</title>
+</head>
+<body>
+    <div id="content">
+
+        <h1>Hi Welcome to About page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ratione dolor, itaque, omnis repellat autem officiis nihil facere quod non voluptatibus repudiandae blanditiis delectus quo quis consequuntur. Eaque, ipsum quibusdam?</p>
+    </div>
+
+    
+    <script>
+        console.log("about page");
+      </script>
+      <script>
+        console.log("second about page script");
+      </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>About Us</title>
+  </head>
+  <body>
+    <div id="content"
+         class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+         style="height: 1000px;
+                background-image:  url('https://img.freepik.com/premium-photo/wooden-block-with-symbol-telephone-email-address-website-page-contact-us-e-mail-marketing-concept-3d-rendering_20693-752.jpg?w=740');
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                width: auto;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;">
+      <div class="container pt-50">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-md-8">
+            <div>
+              <h1 class="font-bold dark:text-gray-900">About Smart Contact Management System</h1>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                Our Smart Contact Management System is designed to help you manage your contacts with ease and efficiency. 
+                It offers a comprehensive suite of features to organize, search, and communicate with your contacts seamlessly.
+              </p>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                Key features include:
+                <ul class="list-disc list-inside text-left mt-2 dark:text-gray-600">
+                  <li>Advanced search and filter options</li>
+                  <li>Contact tagging and categorization</li>
+                  <li>Integration with popular communication platforms</li>
+                  <li>Secure data storage and backup</li>
+                  <li>Intuitive user interface for a smooth experience</li>
+                </ul>
+              </p>
+              <p class="font-bold dark:text-gray-900 mt-4">
+                Whether you are managing personal contacts or business relationships, our system provides the tools you need
+                to keep your contact list organized and up-to-date.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      console.log("About Us page");
+    </script>
+  </body>
+</html>
