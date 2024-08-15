@@ -47,7 +47,7 @@ To get started with the Smart Contact Manager application:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/smart-contact-manager.git
+   git clone https://github.com/rahulkumar1404/scm_smartcontactmanager
    ```
 
 2. **Navigate to the Project Directory**:
